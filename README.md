@@ -1,47 +1,42 @@
 # React Investment Calculator
 
-## خلاصه پروژه
-این پروژه یک تمرین کاربردی برای یادگیری React است که برای محاسبه نتیجه سرمایه‌گذاری طراحی شده است. چهار ورودی اصلی این پروژه عبارت‌اند از: مقدار سرمایه اولیه، میزان سرمایه‌گذاری سالانه، نرخ بازگشت مورد انتظار و مدت زمان سرمایه‌گذاری. با وارد کردن این پارامترها، برنامه نتیجه نهایی سرمایه‌گذاری را محاسبه و به صورت جدول نمایش می‌دهد.
+A simple React practice project for calculating and displaying investment results based on user input.
 
-هدف از ساخت این پروژه تمرین، یادگیری کار با state، مدیریت فرم‌ها، پاس دادن props بین کامپوننت‌ها، محاسبه داده‌های دینامیک و نمایش خروجی‌ها به صورت UI قابل فهم بوده است. همچنین این پروژه به تمرین ساختاردهی کامپوننت‌ها، تقسیم‌کردن منطق و ظاهر، و استفاده از React در پروژه‌های واقعی کمک می‌کند.
+## 🚀 Features
 
-## امکانات
-- ورود مقدار سرمایه اولیه
-- وارد کردن میزان سرمایه‌گذاری سالانه
-- تعیین نرخ بازگشت مورد انتظار
-- مشخص کردن مدت زمان سرمایه‌گذاری
-- نمایش نتیجه محاسبه شده به صورت جدول
+- Enter initial investment amount
+- Enter annual investment amount
+- Set expected return rate
+- Set investment duration
+- Calculate investment results
+- Display results in a table
 
-## تکنولوژی‌ها
+## 🛠️ Tech Stack
+
 - React
 - Vite
 - JavaScript
 
-## نصب و اجرا
-1. وابستگی‌ها را نصب کنید:
-   ```bash
-   npm install
-   ```
-2. سرور توسعه را اجرا کنید:
-   ```bash
-   npm run dev
-   ```
-3. در مرورگر، آدرس زیر را باز کنید:
-   ```bash
-   http://localhost:5173
-   ```
+## ⚡ Quick Start
 
-## ساخت نسخه نهایی
 ```bash
-npm run build
-```
+# Clone the repo
+git clone https://github.com/soufidev/investment-calculator-react.git
 
-## ساختار پروژه
-```text
+# Navigate to folder
+cd investment-calculator-react
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+📁 Folder Structure
 src/
-  App.jsx
-  index.css
-  index.jsx
-  components/
-  util/
-```
+├── App.jsx
+├── index.css
+├── index.jsx
+├── components/
+└── util/
+📦 Build
+npm run build
